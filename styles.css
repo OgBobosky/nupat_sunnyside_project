@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.header {
+  display: block;
+  padding: 0px 0px 0px 0px;
+  height: 749px;
+}
+
+#sliced {
+  top: 0%;
+  width: 1349px;
+  height: 749px;
+  padding: 0%;
+  margin: 0%;
+  top: 0%;
+}
+
+.top-left {
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  width: 150px;
+  padding-left: 5px;
+}
+
+.menu {
+  position: absolute;
+  top: 30px;
+  left: 60%;
+  padding: 0%;
+  width: 530px;
+}
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 0px 0px 0px;
+  right: 5%;
+}
+
+.menu li {
+  position: relative;
+  list-style: none;
+  display: inline;
+  color: white;
+  margin: 0px 5px 0px 5px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
+  font-size: smaller;
+  font-family: Arial black;
+  font-weight: lighter;
+  height: 150px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
+  font-size: smaller;
+  font-family: Arial black;
+  font-weight: lighter;
+  height: 150px;
+  text-align: center;
+}
+
+.menu li a:link,  .menu li a:visited{
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.menu li a:hover, .menu li a:active {
+  background-color: white;
+  opacity: .2;
+  color: black;
+  padding: 15px 25px;
+  border-radius: 40%;
+  
+}
+
+.menu li a #contact {
+  margin-right: 0%;
+}
+
+/* #contact{
+    display: inline;
+    padding-left: 1px;
+ margin-right: 1px;  
+    width: 10px;
+     background-color: white;
+    border-radius: 40%;
+}
+
+#contact a{
+
+    color: black;
+    height: 10px;
+    left: 50%;
+    
+} */
+
+.above-centered {
+  width: 900px;
+  position: absolute;
+  font-size: 80px;
+  font-family: Bookman old style;
+  font-weight: 100;
+  top: 200px;
+  left: 25%;
+  color: white;
+}
+
+.above-centered h6 {
+  letter-spacing: 12px;
+}
+
+.arrow {
+  /* position: absolute;
+   top: 58%;
+   left: 49%; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 65px 220px 0px 0px;
+}
+
+.white-egg {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  height: 504px;
+}
+.white-egg #egg {
+  width: 674.5px;
+  height: 504px;
+  margin-bottom: 0%;
+}
+
+.white-egg #white {
+  width: 674.5px;
+  height: 504px;
+  margin-bottom: 0%;
+}
+
+.white {
+  display: flex;
+  justify-content: center;
+}
+.white-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px 0px 100px;
+}
+#head-line {
+  font-family: Bookman old style;
+  font-size: 45px;
+}
+
+#first-line {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  color: darkgray;
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+#second-line a {
+  font-family: Bookman old style;
+
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#second-line {
+  padding-top: 30px;
+}
+
+.white-egg #second-line a:link {
+  text-decoration: none;
+}
+
+.white-egg #second-line a:visited {
+  text-decoration: none;
+}
+
+.white-egg #second-line a:hover{
+  text-decoration: underline yellow 6px;
+}
+
+
+.white-egg #second-line a:active {
+  text-decoration: underline;
+}
+
+
+.cup-white {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-bottom: 0%;
+  height: 508px;
+}
+
+.cup-white #cup {
+  width: 674.5px;
+  height: 508px;
+}
+
+.cup-white #second-line a:link {
+  text-decoration: none;
+}
+
+.cup-white #second-line a:visited {
+  text-decoration: none;
+}
+
+.cup-white #second-line a:hover{
+  text-decoration: underline rgb(255, 115, 0) 6px;
+}
+
+
+.cup-white #second-line a:active {
+  text-decoration: underline;
+}
+
+#head-line2 {
+  font-family: Bookman old style;
+  font-size: 40px;
+}
+
+
+
+.fruits {
+  display: flex;
+
+  background: url(./images/desktop/image-graphic-design.jpg);
+  height: 33em;
+  background-repeat: no-repeat;
+}
+
+.fruits1 {
+  display: flex;
+  background: url(./images/desktop/image-photography.jpg);
+  height: 33em;
+  background-repeat: no-repeat;
+}
+
+.holder {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#cherry {
+  width: 674.5px;
+  height: 504px;
+  margin-bottom: 0%;
+}
+
+#agbalumo-writing {
+  width: 674.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#cherry-writing h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#cherry-writing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#agbalumo-writing h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+
+.text {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 14px;
+  color: darkcyan;
+  font-family: arial black;
+  width: 60%;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  font-family: Bookman old style;
+  color: darkslategrey;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.clients-testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 700px;
+  width: 1349px;
+}
+
+.client-pictures {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1349px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.first-head-text {
+  text-align: center;
+  font-family: Bookman old style;
+  font-size: 20px;
+  color: darkgrey;
+  letter-spacing: 6px;
+}
+
+#passport-div {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#passport {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+}
+
+#passport-text {
+  display: flex;
+  text-align: center;
+  font-family: Bookman old style;
+  font-size: 17px;
+  color: darkslategray;
+  font-weight: bold;
+}
+
+#passport-name {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-family: Bookman old style;
+  font-size: 17px;
+  color: darkslategray;
+  font-weight: bold;
+}
+
+#passport-role {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: Bookman old style;
+  font-size: 14px;
+  color: darkslategray;
+  opacity: 0.4;
+}
+
+.client {
+  width: 350px;
+  margin: 0px 60px 0px 60px;
+  padding-right: 0px;
+}
+
+.four-img {
+  display: flex;
+  flex-direction: row;
+  height: 418.25px;
+}
+
+#img {
+  width: 337.25px;
+}
+
+.final-div {
+  background-color: #90d4c5;
+  height: 310px;
+}
+
+#bottom-logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+#bottom-logo-div img {
+  margin-top: 60px;
+  width: 180px;
+  height: 40px;
+  color: #337a6c;
+  filter: invert(42%) sepia(14%) saturate(1421%) hue-rotate(118deg)
+    brightness(100%) contrast(90%);
+}
+
+.second-last {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.second-last p {
+  margin: 20px 40px 90px 40px;
+  font-family: arial black;
+  color: #337a6c;
+  font-weight: lighter;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+}
+
+.last img {
+  margin: 0px 15px 0px 15px;
+  color: #337a6c;
+  filter: invert(42%) sepia(14%) saturate(1421%) hue-rotate(118deg)
+    brightness(50%) contrast(30%);
+}
+
+
+
+
+.last a img:hover{
+ color:#FFFFFF;
+filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(267deg) brightness(111%) contrast(101%);
+}
+
+
+.last a img :active{
+  
+  background-color:#FFFFFF ;
+}
+
+.second-last a {
+  text-decoration: none;
+
+}
+
+.second-last a p:hover{
+  text-decoration: solid;
+  color: white;
+  
+  
+}
+
+.second-last a:active{
+  background-color:#90d4c5 ;
+}
+
